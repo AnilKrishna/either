@@ -46,7 +46,7 @@ public class Either<S, F> {
 
     @Override
     public String toString() {
-        return "OneOf{" +
+        return "Either{" +
                 "successValue=" + successValue +
                 ", failureValue=" + failureValue +
                 '}';
